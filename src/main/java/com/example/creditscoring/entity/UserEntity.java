@@ -24,6 +24,7 @@ public class UserEntity {
     private double salary;
     @ManyToMany
     @JoinTable(
+//            asdf
             name = "user_roles",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id")
